@@ -1,0 +1,42 @@
+*{
+    text-align:center;
+    background-color: #B1D8B7;
+}
+.red{
+    background-color: #DF362D;
+}
+.yellow{
+    background-color:#FAD02C;
+}
+.purple{
+    background-color: #C197D2;
+}
+.green{
+    background-color: #21B6A8;
+}
+.btn{
+    height:200px;
+    width:200px;
+    /* border-radius:20%; */
+    border:10px solid black;
+    margin:2rem;
+}
+.red{
+    border-radius: 100% 0 0 0;
+}
+.yellow{
+    border-radius: 0 0 0 100% ;
+}
+.green{
+    border-radius: 0 100% 0 0;
+}
+.purple{
+    border-radius: 0 0 100% 0;
+}
+.btn-container{
+    display : flex;
+    justify-content: center;
+}
+.flash{
+    background-color: white;
+}
